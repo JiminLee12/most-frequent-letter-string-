@@ -5,6 +5,6 @@ def mostfrequentletter(string):
         if string.count(string[i])>string.count(frequent):
             frequent = string[i]
         elif string.count(string[i]) = string.count(frequent):
-            if ord(string[i])<=ord(string[i]):
+            if ord(string[i])<=ord(frequent):
                 frequent = string[i]
     return frequent
