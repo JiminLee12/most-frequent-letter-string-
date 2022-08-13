@@ -1,5 +1,5 @@
 def mostfrequentletter(string):
-    string = string.lower
+    string = string.lower()
     frequent = string[0]
     for i in range(1, len(string)):
         if string.count(string[i])>string.count(frequent):
